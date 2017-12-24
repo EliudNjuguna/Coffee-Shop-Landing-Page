@@ -1,0 +1,89 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+}
+nav{
+    text-align: center;
+    margin-top: 40px;
+}
+nav ul {
+    display: block;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding: 16px 40px;
+}
+.logo{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.logo img{
+    width: 70px;
+}
+.header{
+   position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.header h1{
+    color: #fff;
+    font-family: 'Satisfy';
+    font-size: 55px;
+}
+.tagline{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tagline p{
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.btn{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    padding: 16px 42px;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    font-size: 17px;
+    transition: all .3s;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
